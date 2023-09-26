@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Honey World</title>
+        <script src="main.js"></script>
+    </head>
+    <body style="background: linear-gradient(#f0c54f 0%,#b195e6 30%,#e395e6 50%,#e69895 70%,#95e6e3 100%);">
+        <center>
+            <h1 style="margin: 30px;color: blueviolet; font-style: italic">Touch honey Bee to decrease Number and Touch honey Comb to increase Number</h1>
+            <div id="box">
+                
+                <span>
+            <img src="a.png" onclick="change()" style="width: 200px; height: 200px; border-radius: 40px; margin: 20px;" >
+            <img src="honeycomb-removebg-preview.png" onclick="changeimg()" style="width: 200px; height: 200px; border-radius: 40px; margin:20px;">
+            </span>
+            <div>
+                <label style="font-size: 30px;">Score :</label>
+            </div>
+            <div>
+                <label id="holder" style="font-size: 20px;">0</label>
+            </div>
+            </div>
+            <button onclick="text()">click me</button>
+            <p id="demo"></p>
+            
+        </center>
+    </body>
+    
+    <style>
+        #box{
+            border: 5px groove violet;
+            
+        }</style>
+    </html>
